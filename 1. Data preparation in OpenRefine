@@ -1,2 +1,41 @@
 Data preparation in OpenRefine
 
+OpenRefine (previously Google Refine) is a tool for data cleaning that runs through a web browser.
+
+You will need to download OpenRefine and install it. This can be done here http://openrefine.org/download.html.
+
+On launching it will run through your web browser, although you don't need an internet connection. 
+
+The data will all be stored on your computer.
+
+This software has the benefits of being able to handle larger data sets than you can manipulate in excel and will log anything you do to the data, without changing the original data.
+
+We will explore some of its functionality using a fictious police data set on suspected incidents of modern slavery.
+
+The first step is to read in your data. Today we will assume it is has been collated into a .csv file.
+
+We do this by reading in the .csv file (although other file types are supported too) and creating a new project.
+
+We can now visually inspect the data.
+
+OpenRefine uses 'facets' and 'filters' to select subsets of your data to perform actions on. 
+
+You can select methods for faceting and filtering from the menus at the top of each data column.
+
+Further information on how to use these can be found here https://github.com/OpenRefine/OpenRefine/wiki/Screencasts.
+
+However, we will today demo how to standardise spelling and the format of entries for postcodes and nationalities using the 'text facet' function.
+
+We will also explore the 'facet by blank' option so we can retrospectively complete blank entries where appropriate. 
+
+As you can see OpenRefine is particularly useful for cleaning up textual data.
+
+There is of course a lot more that it offers including numeric and date-based 'timeline' facets.
+
+Whilst you have been performing these facets and edits OpenRefine has been logging these actions.
+
+We can examine this log by clicking on the undo/redo tab on the left hand pane and clicking 'export'. This is a detailed description of all the actions that have been performed on your data.
+
+When you have finished editing your data you can export a copy by using the 'explort' button at the top right. You can export it in a range of file types.
+
+Alternatively, you can export the whole project which will include the original data as well as a log of the changes applied to it.
