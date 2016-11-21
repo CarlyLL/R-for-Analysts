@@ -39,3 +39,5 @@ We can examine this log by clicking on the undo/redo tab on the left hand pane a
 When you have finished editing your data you can export a copy by using the 'explort' button at the top right. You can export it in a range of file types.
 
 Alternatively, you can export the whole project which will include the original data as well as a log of the changes applied to it.
+
+Either the resultant file or project can then be shared with your collaborators for analysis.
